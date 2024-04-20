@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: grey;
+    text-align: center;
+}
+
+form {
+    max-width: 1000px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(197, 181, 181);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+
+
+
+
